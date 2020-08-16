@@ -9,8 +9,8 @@ using SalesWebMvc.Models;
 namespace SalesWebMvc.Migrations
 {
     [DbContext(typeof(SalesWebMvcContext))]
-    [Migration("20200816150957_OtherEntities")]
-    partial class OtherEntities
+    [Migration("20200816182110_OtherMigration")]
+    partial class OtherMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -38,7 +38,7 @@ namespace SalesWebMvc.Migrations
 
                     b.Property<double>("Amount");
 
-                    b.Property<int>("Date");
+                    b.Property<string>("Date");
 
                     b.Property<int?>("SellerId");
 
@@ -58,7 +58,7 @@ namespace SalesWebMvc.Migrations
 
                     b.Property<double>("BaseSalary");
 
-                    b.Property<int>("BirthDate");
+                    b.Property<string>("BirthDate");
 
                     b.Property<int?>("DepartmentId");
 

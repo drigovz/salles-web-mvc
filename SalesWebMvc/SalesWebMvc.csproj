@@ -11,6 +11,10 @@
     <Compile Remove="Migrations\20200816145300_OtherEntities.Designer.cs" />
     <Compile Remove="Migrations\20200816150607_OtherEntities.cs" />
     <Compile Remove="Migrations\20200816150607_OtherEntities.Designer.cs" />
+    <Compile Remove="Migrations\20200816180601_OtherMigration.cs" />
+    <Compile Remove="Migrations\20200816180601_OtherMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200816181452_OtherMigration.cs" />
+    <Compile Remove="Migrations\20200816181452_OtherMigration.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
